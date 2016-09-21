@@ -3,8 +3,8 @@ body{
 	margin: auto;
 	padding: auto;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-   line-height: 1.5;
+        font-size: 16px;
+        line-height: 1.5;
 }
 h1{ 
 	text-align:center;
@@ -14,7 +14,7 @@ h1{
 p{
 	text-align: justify;
 	margin-top: 40px;
-	padding: 10px;
+	padding: auto;
 
 }
 
