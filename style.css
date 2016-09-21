@@ -1,10 +1,17 @@
 
-body{
+
+*{
 	margin: auto;
 	padding: auto;
+	box-sizing: border-box;
+}
+body{
+	margin: 8px;
+	padding: 8px;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
    line-height: 1.5;
+   position: relative;
 }
 h1{ 
 	text-align:center;
@@ -14,18 +21,19 @@ h1{
 p{
 	text-align: justify;
 	margin-top: 40px;
-	padding: 10px;
-
+	
 }
 
 
 #box1,#box2,#box3{
-	margin: 1px;
 	color:#ffffff;
-	/*border-radius: 10px;*/
 	border: black solid 1px;
 	box-sizing: border-box;
+	position: relative;
+	margin-top: 10px;
+	
 
+	
 }
 #box1{
 	background-color:#9090aa;
@@ -42,11 +50,10 @@ p{
 #intro,#about,#contact{
 	float: right;
 	width: 200px;
-	text-align: right;
-	color:black;
+	text-align: center;
+	color:red;
 	border: black solid 1px;
-	font-size: 20px;
-	padding: 5px;
+	font-size: 24px;
 	
 }
 #intro{
@@ -59,8 +66,10 @@ p{
 	background-color: #00ffff;
 }
  
- .row{
+ #rowbox{
+ 		
  		width: 100%;
+ 		position: relative;
 
  	}
 /* Desktop view */ 	
@@ -68,8 +77,9 @@ p{
 @media (min-width: 992px){
 
 	.col-lg-4{
-		width: 33%;
+		width: 32%;
 		float: left;
+		margin-left: 1%;
 	}
 	
  	
@@ -80,12 +90,15 @@ p{
 
 	
 	.col-md-6{
-		width: 49%;
 		float: left;
+		width: 49%;
+		margin-left: 1%;
+		
 	}
 	.col-md-12{
-		width: 98%;
+		width: 99%;
 		float: left;
+		margin-left: 1%;
 	}
  	
  	
