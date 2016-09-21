@@ -13,7 +13,7 @@ body{
    line-height: 1.5;
    position: relative;
 }
-h1{ 
+h1,h2{ 
 	text-align:center;
 }
 
@@ -21,6 +21,7 @@ h1{
 p{
 	text-align: justify;
 	margin-top: 40px;
+	padding: 10px;
 	
 }
 
@@ -36,34 +37,33 @@ p{
 	
 }
 #box1{
-	background-color:#9090aa;
+	background-color:#007256;
 }
 
 #box2{
-	background-color:#909022;
+	background-color:#e97600;
 }
 
 #box3{
-	background-color:#909077;
+	background-color:#bd1e24;
 }
 
-#intro,#about,#contact{
+#intro,#about,#download{
 	float: right;
 	width: 200px;
 	text-align: center;
-	color:red;
 	border: black solid 1px;
-	font-size: 24px;
+	color: black;
 	
 }
 #intro{
-	background-color: #ff00ff;
+	background-color: #bd1e24;
 }
 #about{
-	background-color: #ffff00;
+	background-color: #007256;
 }
-#contact{
-	background-color: #00ffff;
+#download{
+	background-color: #e97600;
 }
  
  #rowbox{
